@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bio5l85ev4tkt"]
+[gd_scene load_steps=16 format=3 uid="uid://bio5l85ev4tkt"]
 
 [ext_resource type="PackedScene" uid="uid://bhtw0tl03y2qv" path="res://Scenes/player.tscn" id="1_ebmjs"]
 [ext_resource type="Script" uid="uid://06u5wfys7wjn" path="res://Scripts/game_manager.gd" id="1_v158k"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dpamygvieykeb" path="res://Scenes/killzone.tscn" id="5_wowpa"]
 [ext_resource type="PackedScene" uid="uid://b1j8r8dw4yufd" path="res://Scenes/slime.tscn" id="6_i6g32"]
 [ext_resource type="FontFile" uid="uid://bfcidh2hoi70g" path="res://Assets/fonts/PixelOperator8.ttf" id="7_1l0tm"]
+[ext_resource type="PackedScene" uid="uid://clxyo6ksf82cs" path="res://Scenes/pause_menu.tscn" id="9_h4fw4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wrm1d"]
 texture = ExtResource("2_qxrlw")
@@ -319,3 +320,9 @@ theme_override_colors/font_color = Color(0.117647, 0.0627451, 0, 1)
 theme_override_fonts/font = ExtResource("7_1l0tm")
 theme_override_font_sizes/font_size = 8
 text = "Almost there.."
+
+[node name="PauseMenu" parent="." instance=ExtResource("9_h4fw4")]
+offset_left = -39.0
+offset_top = -29.0
+offset_right = -39.0
+offset_bottom = -29.0

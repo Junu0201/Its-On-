@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bpn7hokuuwfw4"]
 
-[ext_resource type="Script" uid="uid://da61rsc34elff" path="res://Scenes/options_menu.gd" id="1_plplt"]
+[ext_resource type="Script" uid="uid://da61rsc34elff" path="res://Scripts/options_menu.gd" id="1_plplt"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -27,4 +27,6 @@ text = "Volume"
 layout_mode = 2
 text = "Back"
 
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Volume" to="." method="_on_volume_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_pressed"]
 [connection signal="toggled" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_toggled"]
