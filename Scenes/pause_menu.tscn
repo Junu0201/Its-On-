@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://mohqbi42g8l0"]
+[gd_scene load_steps=3 format=3 uid="uid://clxyo6ksf82cs"]
 
 [ext_resource type="AudioStream" uid="uid://dw3v1hlkpald1" path="res://Assets/music/time_for_adventure.mp3" id="1_emv3i"]
-[ext_resource type="Script" path="res://Scenes/pause_menu.gd" id="1_k0w1u"]
+[ext_resource type="Script" uid="uid://dsjqj4i8ul2ki" path="res://Scenes/pause_menu.gd" id="1_k0w1u"]
 
 [node name="PauseMenu" type="Control"]
 layout_mode = 3
